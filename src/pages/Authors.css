@@ -1,0 +1,246 @@
+.authors-page {
+  padding: 3rem 0;
+  min-height: 60vh;
+}
+
+.content-box {
+  background: hsl(var(--card));
+  border-radius: var(--radius);
+  padding: 3rem;
+  box-shadow: var(--shadow-elevated);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(var(--primary));
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid hsl(var(--accent));
+}
+
+.content-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: hsl(var(--foreground));
+  margin-bottom: 1.5rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.content-list {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: hsl(var(--foreground));
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.content-list li {
+  margin-bottom: 0.75rem;
+}
+
+.action-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.btn-large {
+  padding: 1.25rem 3rem;
+  font-size: 1.1rem;
+}
+
+.highlight-box {
+  background: linear-gradient(135deg, hsl(var(--accent) / 0.1), hsl(var(--primary) / 0.1));
+  border: 2px solid hsl(var(--accent));
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.highlight-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: hsl(var(--primary));
+  margin: 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.track-card {
+  background: hsl(var(--muted));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: var(--transition-smooth);
+}
+
+.track-card:hover {
+  border-color: hsl(var(--primary));
+  box-shadow: var(--shadow-card);
+}
+
+.track-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: hsl(var(--primary));
+  margin-bottom: 1rem;
+}
+
+.track-topics {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.track-topics li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: hsl(var(--foreground));
+  font-size: 0.95rem;
+}
+
+.track-topics li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: hsl(var(--accent));
+  font-weight: 700;
+}
+
+.inline-icon {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  color: hsl(var(--accent));
+}
+
+.dates-table-wrapper {
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.dates-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: hsl(var(--card));
+}
+
+.dates-table thead {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.dates-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.dates-table td {
+  padding: 1rem;
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.dates-table tbody tr:hover {
+  background: hsl(var(--muted));
+}
+
+.event-cell {
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+.date-cell {
+  color: hsl(var(--primary));
+  font-weight: 700;
+  text-align: right;
+}
+
+.note-box {
+  background: hsl(var(--accent) / 0.1);
+  border-left: 4px solid hsl(var(--accent));
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: calc(var(--radius) - 2px);
+}
+
+.note-text {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: hsl(var(--foreground));
+}
+
+@media (max-width: 768px) {
+  .authors-page {
+    padding: 2rem 0;
+  }
+
+  .content-box {
+    padding: 2rem;
+  }
+
+  .content-heading {
+    font-size: 1.3rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .btn-large {
+    width: 100%;
+  }
+
+  .tracks-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dates-table th,
+  .dates-table td {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-box {
+    padding: 1.5rem;
+  }
+
+  .highlight-text {
+    font-size: 1.05rem;
+  }
+
+  .dates-table th,
+  .dates-table td {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .date-cell {
+    text-align: left;
+  }
+}

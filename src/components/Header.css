@@ -1,0 +1,318 @@
+.header {
+  background: hsl(var(--card));
+  border-bottom: 1px solid hsl(var(--border));
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-card);
+}
+
+.header-top {
+  background: hsl(var(--background));
+  padding: 1rem 0;
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  flex-wrap: nowrap; 
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  transition: var(--transition-smooth);
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.header-nav {
+  background: hsl(var(--card));
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.nav-brand h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(var(--primary));
+  margin: 0;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: hsl(var(--foreground));
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  color: hsl(var(--foreground));
+  text-decoration: none;
+  border-radius: var(--radius);
+  transition: var(--transition-smooth);
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: none;
+  background: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  background: hsl(var(--muted));
+  color: hsl(var(--primary));
+}
+
+.nav-link.active {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  content: '▼';
+  font-size: 0.7rem;
+  margin-left: 0.25rem;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-elevated);
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  z-index: 50;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: hsl(var(--foreground));
+  text-decoration: none;
+  border-radius: calc(var(--radius) - 2px);
+  transition: var(--transition-smooth);
+  font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+  background: hsl(var(--muted));
+  color: hsl(var(--primary));
+}
+
+.dropdown-item.active {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+@media (max-width: 1024px) {
+  .logos-container {
+    gap: 2rem;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .nav-menu {
+    gap: 0.25rem;
+  }
+
+  .nav-link {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logos-container {
+    gap: 1.5rem;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: hsl(var(--card));
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem;
+    border-top: 1px solid hsl(var(--border));
+    box-shadow: var(--shadow-elevated);
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: none;
+    box-shadow: none;
+    border: none;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .nav-dropdown:hover .dropdown-menu {
+    display: none;
+  }
+
+  .nav-dropdown.active .dropdown-menu {
+    display: block;
+  }
+}
+
+/* ===========================
+   🔹 Base (Desktop First)
+   =========================== */
+.logos-container {
+  display: flex;
+  justify-content: center; /* centered for full-screen consistency */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  transition: var(--transition-smooth);
+}
+
+/* ===========================
+   🔸 Large Screens (≥1400px)
+   =========================== */
+@media (min-width: 1400px) {
+  .logos-container {
+    gap: 4rem;
+  }
+  .logo {
+    height: 70px;
+  }
+}
+
+/* ===========================
+   🖥️ Laptops (1025px–1399px)
+   =========================== */
+@media (max-width: 1399px) and (min-width: 1025px) {
+  .logos-container {
+    justify-content: space-evenly;
+    gap: 2.5rem;
+  }
+  .logo {
+    height: 60px;
+  }
+}
+
+/* ===========================
+   💻 Tablets Landscape (766px–1024px)
+   =========================== */
+@media (max-width: 1024px) and (min-width: 766px) {
+  .logos-container {
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .logo {
+    height: 50px;
+    max-width: 140px;
+  }
+}
+
+/* ===========================
+   📱 Tablets Portrait / Large Mobiles (491px–765px)
+   =========================== */
+@media (max-width: 765px) and (min-width: 491px) {
+  .logos-container {
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .logo {
+    height: 45px;
+    max-width: 120px;
+  }
+}
+
+/* ===========================
+   📞 Small Mobiles (≤490px)
+   =========================== */
+@media (max-width: 490px) {
+  .logos-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .logo {
+    height: 35px;
+    max-width: 100px;
+  }
+}
+

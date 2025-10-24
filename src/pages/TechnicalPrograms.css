@@ -1,0 +1,214 @@
+.technical-page {
+  padding: 3rem 0;
+  min-height: 60vh;
+}
+
+.sessions-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.session-block {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-card);
+}
+
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid hsl(var(--primary));
+}
+
+.session-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: hsl(var(--primary));
+  margin: 0;
+}
+
+.session-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: hsl(var(--muted));
+  border-radius: calc(var(--radius) - 2px);
+}
+
+.session-info span {
+  font-size: 0.95rem;
+  color: hsl(var(--foreground));
+}
+
+.papers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: hsl(var(--card));
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+
+.papers-info {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  margin: 0;
+}
+
+.papers-table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+
+.papers-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: hsl(var(--card));
+}
+
+.papers-table thead {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.papers-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1rem;
+  border-bottom: 2px solid hsl(var(--accent));
+}
+
+.papers-table td {
+  padding: 1rem;
+  border-bottom: 1px solid hsl(var(--border));
+  font-size: 0.95rem;
+}
+
+.papers-table tbody tr:hover {
+  background: hsl(var(--muted));
+}
+
+.papers-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.paper-id {
+  font-weight: 700;
+  color: hsl(var(--primary));
+  white-space: nowrap;
+}
+
+.paper-title {
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+.paper-authors {
+  color: hsl(var(--muted-foreground));
+}
+
+.coming-soon-box {
+  background: hsl(var(--card));
+  border: 2px dashed hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.coming-soon-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: hsl(var(--primary));
+  margin-bottom: 1rem;
+}
+
+.coming-soon-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: hsl(var(--muted-foreground));
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .technical-page {
+    padding: 2rem 0;
+  }
+
+  .session-block {
+    padding: 1.5rem;
+  }
+
+  .session-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .session-title {
+    font-size: 1.3rem;
+  }
+
+  .session-info {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .papers-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .papers-table th,
+  .papers-table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .coming-soon-box {
+    padding: 3rem 1.5rem;
+  }
+
+  .coming-soon-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .session-block {
+    padding: 1.25rem;
+  }
+
+  .session-title {
+    font-size: 1.2rem;
+  }
+
+  .papers-table th,
+  .papers-table td {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .coming-soon-title {
+    font-size: 1.75rem;
+  }
+
+  .coming-soon-text {
+    font-size: 1rem;
+  }
+}
