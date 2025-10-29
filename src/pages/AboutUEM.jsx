@@ -15,41 +15,37 @@ const AboutUEM = () => {
             <h2 className="content-subtitle">University of Engineering & Management, Kolkata</h2>
             
             <p className="content-text">
-              The University of Engineering & Management (UEM), Kolkata is a premier institution dedicated to excellence in technical education and research. Established with a vision to create world-class professionals, UEM has emerged as one of the leading universities in Eastern India.
+              University of Engineering and Management (UEM) aims to provide an international ambience and exposure with innovative teaching techniques and courses which are tailor-made (technical & soft skills) for the job market giving the students the winning edge and competitive advantage during placements.
             </p>
             
-            <p className="content-text">
-              UEM Kolkata offers a wide range of undergraduate, postgraduate, and doctoral programs in various disciplines including Computer Science, Electronics & Communication, Mechanical Engineering, Civil Engineering, and Management Studies. The university is known for its state-of-the-art infrastructure, experienced faculty, and strong industry connections.
-            </p>
             
-            <h3 className="content-heading">Our Vision</h3>
-            <p className="content-text">
-              To be a globally recognized university that fosters innovation, entrepreneurship, and holistic development of students through quality education and cutting-edge research.
-            </p>
-            
-            <h3 className="content-heading">Our Mission</h3>
+            <h3 className="content-heading">Who we are</h3>
             <ul className="content-list">
-              <li>Provide world-class technical education with emphasis on practical learning</li>
-              <li>Promote research and innovation in emerging technologies</li>
-              <li>Foster industry-academia collaboration for mutual growth</li>
-              <li>Develop socially responsible professionals with ethical values</li>
-              <li>Create a vibrant ecosystem for entrepreneurship and startups</li>
+              <li>UEM Kolkata has won "AAA" category (first 10 institutes nationally among all institutes of India including all IITs and NITs) in NPTEL program (IIT Kharagpur and IIT Chennai)</li>
+              <li>UEM Kolkata student has stood 1st amongst all students of India in NPTEL program</li>
+              <li>UEM Kolkata and UEM Jaipur organized UEMCON-2016 in Columbia University, New York, USA in association with IEEE New York, IEEE USA and IEEE Region </li>
+              <li>Highest salary offer at UEM Kolkata is Rs 72 lakhs per annum.</li>
+              <li>The University is a partner institution in the prestigious European Union sponsored project 'FRACTION' & 'UNNAT BHARAT ABHIYAAN' of Govt. of India.</li>
+              <li>UEMK has been recognised in the band "Performer" under the category "University & Deemed to be University (Private/Self Financed) (Technical)" in ATAL RANKING OF INSTITUTIONS ON INNOVATION ACHIEVEMENTS (ARIIA) 2021, a flagship program of the Ministry of Education, Government of India.</li>
             </ul>
             
-            <h3 className="content-heading">Academic Excellence</h3>
+            <h2 className="content1-heading">Vision Mission Values</h2>
+            <h3 className="content-heading">Vision</h3>
             <p className="content-text">
-              UEM Kolkata is approved by AICTE and UGC, and offers programs that are designed to meet global standards. The university has established collaborations with leading international universities and industry partners, providing students with opportunities for exchange programs, internships, and placements.
+              To be a globally recognized educational institution known for outcome based education and application oriented research.
             </p>
             
-            <h3 className="content-heading">Research & Innovation</h3>
+            <h3 className="content-heading">Mission</h3>
             <p className="content-text">
-              The university actively promotes research activities across various domains. With well-equipped laboratories, research centers, and funding support, UEM encourages faculty and students to engage in cutting-edge research that addresses real-world challenges.
+              To assist students to understand and enjoy seamless nature of knowledge and encourage them to apply acquired knowledge to practical use, so that they become worthy, socially responsible good human beings sought after their leadership qualities. To foster creativity, innovation and excellence through example based teaching-learning process imparted in the most simple and easily comprehensible way. To continuously upgrade knowledge base of our man power, improve infrastructure and use of latest technology/ pedagogical tools, and update curriculum through periodic feedback from stakeholders to enable students to meet professional requirements and their expectations.
             </p>
             
-            <h3 className="content-heading">Campus & Facilities</h3>
+            <h3 className="content-heading">Values</h3>
             <p className="content-text">
-              Located in New Town, Kolkata, the UEM campus spans across acres of green landscape and features modern academic buildings, advanced laboratories, a central library with extensive digital resources, sports facilities, and comfortable hostel accommodations. The campus provides an ideal environment for learning, research, and overall personality development.
+              Graduate, Postgraduate and Doctoral Students known for their hard work, competence, disciplined life, socially responsible, professional conduct & intellectual and moral integrity.
             </p>
+            
+            
           </div>
         </div>
       </main>

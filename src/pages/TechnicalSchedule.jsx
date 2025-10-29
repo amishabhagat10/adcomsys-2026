@@ -7,38 +7,50 @@ const TechnicalSchedule = () => {
   const sessions = [
     {
       title: 'Session 1 (Offline)',
-      date: 'March 15, 2025',
-      time: '09:00 AM - 12:00 PM',
+      date: '26th June 2025',
+      time: '2.15PM - 4.30PM',
       mode: 'Offline',
-      venue: 'Main Auditorium, UEM Kolkata',
+      venue: 'Board Room, University of Engineering and Management Kolkata',
       papers: [
-        { id: 'P001', title: 'Deep Learning for Image Classification: A Comprehensive Study', authors: 'John Doe, Jane Smith, Robert Brown' },
-        { id: 'P002', title: 'IoT-Based Smart Agriculture System', authors: 'Alice Johnson, Michael Chen' },
-        { id: 'P003', title: 'Blockchain for Supply Chain Management', authors: 'David Wilson, Sarah Lee, Tom Anderson' }
+        { id: '10', title: 'Deep Learning-Based Speech Emotion Recognition: Comparative Analysis of Neural Architectures and Feature Extraction Techniques', authors: 'Deepra Mazumder, Devarshi Gupta and Jhalak Dutta' },
+        { id: '58', title: 'AI-Driven Business Intelligence for Optimizing Energy Efficiency in Smart Urban Systems: A Comparative Study', authors: 'Amit Kumar Mandal and Kisor Ray' },
+        { id: '92', title: 'FitFinder: A Next-Gen Resume Analyzer for Data-Driven Talent Acquisition', authors: 'Pratik Kundu, Souvik Nandi, Nirmal Sana, Pabitra Kumar Dey, Pradipta Pal, Debasis Guha' }
       ]
     },
     {
       title: 'Session 2 (Online)',
-      date: 'March 15, 2025',
-      time: '02:00 PM - 05:00 PM',
+      date: '27th June 2025',
+      time: '2.00PM - 3.30PM',
       mode: 'Online',
-      venue: 'Zoom Meeting',
+      venue: 'University of Engineering and Management Kolkata',
       papers: [
-        { id: 'P004', title: 'Machine Learning in Healthcare Diagnostics', authors: 'Emma Davis, James Miller' },
-        { id: 'P005', title: 'Cybersecurity Threats in Cloud Computing', authors: 'Richard Taylor, Laura White' },
-        { id: 'P006', title: 'Natural Language Processing for Sentiment Analysis', authors: 'Chris Martin, Amy Clark' }
+        { id: '60', title: 'Private Schemes for Cybersecurity Certifications: An Experimental Modeling and Forecasting for Success', authors: 'Rachel Menda-Shabat-More, Spasova Veselina' },
+        { id: '21', title: 'Sustainable Development Goals and Social Sector Expenditure in India: Using Tax Revenue as Moderator', authors: 'Samiksha Kashyap; Bhakti Agarwal; Shailesh Rastogi; Dr. Arpita Sharma; Rahul Sharma; Mr. Narender Singh' },
+        { id: '88', title: 'Fine-Tuned MobileNetV2 for Robust Flower Species Classification: A Transfer Learning Approach', authors: 'Shahriar Arefin Zummon, Safwat Nusrat and Pushpita Dhar' }
       ]
     },
     {
-      title: 'Session 3 (Offline)',
-      date: 'March 16, 2025',
-      time: '09:00 AM - 12:00 PM',
-      mode: 'Offline',
-      venue: 'Conference Hall B, UEM Kolkata',
+      title: 'Session 3 (Online)',
+      date: '27th June 2025',
+      time: '2.00PM - 3.30PM',
+      mode: 'Online',
+      venue: 'University of Engineering and Management Kolkata',
       papers: [
-        { id: 'P007', title: 'Edge Computing for Real-Time Applications', authors: 'Kevin Harris, Lisa Moore' },
-        { id: 'P008', title: 'Quantum Computing: Current State and Future Prospects', authors: 'Daniel Garcia, Nancy Rodriguez' },
-        { id: 'P009', title: 'AI in Robotics and Automation', authors: 'Paul Martinez, Jennifer Hernandez' }
+        { id: '20', title: 'Nucleus Instance Segmentation and Metastatic Tissue Identification using Machine Learning', authors: 'Rahul Mehta, Ankita Chatterjee, Jayanta Mukherjee, Sudipta Ghosh' },
+        { id: '22', title: 'A Study on Phylogenetic Trees: Generations and Applications', authors: 'Sumit Chakraborty, Saptaparna Kundu, Maumita Chakraborty, and Rajat Kumar Pal' },
+        { id: '31', title: 'Innovative IoT-Based Healthcare Devices: A new Era of Patient Monitoring and Care', authors: 'Aayush Mishra, Niladri Das, Brambhananda Roy, Dr. Sangeeta Jana Mukhopadhyay' }
+      ]
+    },
+    {
+      title: 'Session 4 (Online)',
+      date: '27th June 2025',
+      time: '2.00PM - 3.30PM',
+      mode: 'Online',
+      venue: 'University of Engineering and Management Kolkata',
+      papers: [
+        { id: '25', title: 'Artificial Intelligence in Travel and Hospitality: A New Era for Visitor Engagement', authors: 'Mudang Tagiya & Odang Mara' },
+        { id: '54', title: 'Exploring Diverse Techniques to Analyze Sentiments', authors: 'Kanchan Patil, Harsha Deshpande, Lizzen Camelo, Quisha Coutinho, Anusha Pai, Supriya Patil, Cynara Sliveira, Ramita Karpe' },
+        { id: '81', title: 'Machine Learning-Based Analysis of Electricity Generation on Real-Time Data from Sikkim Regions', authors: 'Samir Limboo, Awashes Katel, Tawal Kumar Koirala, Aniruddha Nag and Nandan Banerji' }
       ]
     }
   ];

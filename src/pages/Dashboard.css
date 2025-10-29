@@ -494,3 +494,50 @@
   z-index: 1;
 }
 
+/* Info Grid Layout */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: stretch;
+  width: 100%;
+}
+
+/* Info Card Styling */
+.info-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover pop effect */
+.info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+/* Titles inside cards */
+.info-card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Card paragraph */
+.info-card p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}

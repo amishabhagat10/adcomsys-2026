@@ -5,12 +5,10 @@ import './Registration.css';
 
 const Registration = () => {
   const fees = [
-    { category: 'Indian Authors (Early Bird)', inr: '₹5,000', usd: '$100' },
-    { category: 'Indian Authors (Regular)', inr: '₹6,500', usd: '$130' },
-    { category: 'Foreign Authors (Early Bird)', inr: '₹15,000', usd: '$300' },
-    { category: 'Foreign Authors (Regular)', inr: '₹18,000', usd: '$360' },
-    { category: 'Attendees Only (Indian)', inr: '₹2,500', usd: '$50' },
-    { category: 'Attendees Only (Foreign)', inr: '₹7,500', usd: '$150' }
+    { category: 'Regular Author (UG/PG)', inr: '₹5,500', usd: '$150', regularinr: '₹8000', regularusd: '$300' },
+    { category: 'Regular Author Academician,PhD Scholars', inr: '₹6,000', usd: '$130', regularinr: '₹7000', regularusd: '$250' },
+    { category: 'Regular Author from Industry', inr: '₹8,000', usd: '$250', regularinr: '₹9000', regularusd: '$300' },
+    { category: 'Only Attending or Accompanying', inr: '₹3,500', usd: '$130', regularinr: '₹3500', regularusd: '$130' }
   ];
 
   return (
@@ -21,19 +19,11 @@ const Registration = () => {
         <div className="container">
           <h1 className="page-title">
             <DollarSign size={40} className="inline-icon" />
-            Registration Information
+            Registration Policy
           </h1>
           
           <div className="content-box">
-            <h3 className="content-heading">Registration Guidelines</h3>
-            <ul className="content-list">
-              <li>Registration is mandatory for all accepted papers</li>
-              <li>At least one author must register for each accepted paper</li>
-              <li>Early bird registration deadline: February 28, 2025</li>
-              <li>Regular registration deadline: March 10, 2025</li>
-              <li>Registration includes conference kit, meals, and proceedings</li>
-              <li>Certificates will be provided to all registered participants</li>
-            </ul>
+            <p>According to the AdComSys 2025 conference registration policy, after obtaining the formal acceptance by e-mail, at least one author of each paper must complete regular registration formalities including payment of full registration fees.</p>
             
             <h3 className="content-heading">Registration Fees</h3>
             <div className="fees-table-wrapper">
@@ -41,8 +31,10 @@ const Registration = () => {
                 <thead>
                   <tr>
                     <th>Category</th>
-                    <th>INR</th>
-                    <th>USD</th>
+                    <th>India/ SAARC countries (Early Bird) (INR)*</th>
+                    <th>Foreign Countries (Early Bird) (USD)</th>
+                    <th>India/ SAARC countries (Regular) (INR)*</th>
+                    <th>Foreign Countries (Regular) (USD)*</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -51,6 +43,8 @@ const Registration = () => {
                       <td className="category-cell">{fee.category}</td>
                       <td className="fee-cell">{fee.inr}</td>
                       <td className="fee-cell">{fee.usd}</td>
+                      <td className="fee-cell">{fee.regularinr}</td>
+                      <td className="fee-cell">{fee.regularusd}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -59,75 +53,62 @@ const Registration = () => {
             
             <div className="note-box">
               <p className="note-text">
-                <strong>Note:</strong> All fees are inclusive of 18% GST for Indian authors. 
-                Foreign authors are exempt from GST.
+                <strong>Note:</strong> All rates are exclusive of GST and other monetary transaction charges..
               </p>
             </div>
-            
-            <h3 className="content-heading">Author Registration Instructions</h3>
-            <ol className="content-list">
-              <li>Complete the online registration form</li>
-              <li>Make payment through the designated payment gateway</li>
-              <li>Upload proof of payment and paper acceptance</li>
-              <li>Wait for confirmation email with registration ID</li>
-              <li>Submit camera-ready paper using your registration ID</li>
-            </ol>
-            
-            <div className="action-center">
-              <a href="https://registration-portal.example.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large">
-                <CreditCard size={24} />
-                Register Now
-              </a>
-            </div>
-            
+            <br />
+            <p>Final submissions can only be uploaded with regular registration and at least one author of each paper must register at the regular rate.</p><br />
+            <p>This fee is only applicable for single author from each paper who will be coming to present his/her paper in the respective venue of the conference. Necessary details for the registration process will be intimidated to the corresponding authors of accepted papers through email.</p><br />
+            <p>If an author has got more than one accepted papers, each paper has also to be registered.</p>
+
+
             <h3 className="content-heading">Payment Information for Indian Authors</h3>
             <div className="payment-info-box">
-              <h4>Online Payment</h4>
-              <p>Pay directly through our secure payment gateway using Credit Card, Debit Card, UPI, or Net Banking.</p>
+              <p>To register your paper, please <a href="https://uem.edu.in/uem-kolkata/adcomsys-2025/" style={{color:"#007bff",textDecoration:"underline"}} target="_blank" rel="noopener noreferrer"><b>click here</b></a></p>
               
-              <h4>Bank Transfer (NEFT/RTGS)</h4>
-              <p>For bank transfer, please send payment proof to <a href="mailto:payment@adcomsys2025.org">payment@adcomsys2025.org</a></p>
+              <p>
+                After your paper get registered, the author will get an auto-generated e-mail, the auto-generated e-mail consist of an invoice having the amount you have paid to register your paper. Author has to e-mail that invoice to conference e-mail id (adcomsys uem.edu.in) along with their paper id and paper title. The file format should be typically in pdf format. The file name must be in this format:123_ Payment_Receipt.pdf. Where 123 is your <a href="https://cmt3.research.microsoft.com" style={{color:"#007bff",textDecoration:"underline"}} target="_blank" rel="noopener noreferrer">https://cmt3.research.microsoft.com</a> paper number (contained in the acknowledgement message to your submission). For example: if the submission ID is 87 and corresponding author name is Dr. Alex Simpson, then file name should be 87_Payment_Receipt.pdf If any author will not send the invoice to the conference email-id then their registration will not be granted or treated as invalid.
+              </p>
             </div>
             
             <h3 className="content-heading">Payment Information for Foreign Authors</h3>
             <div className="payment-info-box">
-              <h4>International Wire Transfer</h4>
-              <p>Foreign authors can make payment through international wire transfer. Details will be provided after registration.</p>
+              <p>Foreign authors are requested to pay the registration fees using the following details:</p>
               
-              <h4>Online Payment</h4>
-              <p>International credit/debit cards are accepted through our secure payment gateway.</p>
-            </div>
-            
-            <h3 className="content-heading">Bank Account Details</h3>
-            <div className="bank-details-box">
+              <div className="bank-details-box">
               <table className="bank-table">
                 <tbody>
                   <tr>
-                    <td><strong>Account Name:</strong></td>
-                    <td>AdComSys 2025 Conference</td>
+                    <td><strong>Name of the Beneficiary: </strong></td>
+                    <td>"University of Engineering and Management, Kolkata"</td>
                   </tr>
                   <tr>
-                    <td><strong>Bank Name:</strong></td>
-                    <td>[Bank Name Placeholder]</td>
+                    <td><strong>Name of the Bank: </strong></td>
+                    <td>Indian Overseas Bank, Sector - V, Salt Lake Branch</td>
                   </tr>
                   <tr>
-                    <td><strong>Account Number:</strong></td>
-                    <td>[Account Number Placeholder]</td>
+                    <td><strong>Beneficiary A/c. No: </strong></td>
+                    <td>164201000001924 (Savings A/c.)</td>
                   </tr>
                   <tr>
                     <td><strong>IFSC Code:</strong></td>
-                    <td>[IFSC Code Placeholder]</td>
+                    <td>IOBA0001642</td>
                   </tr>
                   <tr>
                     <td><strong>SWIFT Code:</strong></td>
-                    <td>[SWIFT Code Placeholder]</td>
+                    <td>IOBAINBB893</td>
                   </tr>
-                  <tr>
-                    <td><strong>Branch:</strong></td>
-                    <td>[Branch Name Placeholder]</td>
-                  </tr>
+                  
                 </tbody>
               </table>
+              
+            </div>
+            <ul>
+                <li>The author has to email the TRANSACTION ID to the conference email ID (adcomsys@uem.edu.in) along with their paper ID and paper title.</li><br />
+                <li>The file format of the transaction ID proof should be typically in pdf format.</li><br />
+                <li>The file name must be in this format:123_ Payment_Receipt.pdf. Where 123 is your https://cmt3.research.microsoft.com/paper number (contained in the acknowledgement message to your submission).</li><br />
+                <li>For example, if the submission ID is 87 and the corresponding author name is Dr. Alex Simpson, then the file name should be 87_Payment_Receipt.pdf. If any author does not send the invoice to the conference email ID, then their registration will not be granted and will be treated as invalid.</li><br />
+              </ul>
             </div>
           </div>
         </div>

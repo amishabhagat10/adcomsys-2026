@@ -2,44 +2,52 @@ import { Calendar, MapPin, Clock } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import './Events.css';
+import img1 from '@/assets/events/1.png';
+import img2 from '@/assets/events/2.png';
+import img3 from '@/assets/events/3.png';
+import img4 from '@/assets/events/4.png';
 
 const Events = () => {
   const events = [
     {
       id: 1,
-      title: 'Pre-Conference Workshop: AI and Machine Learning',
-      description: 'Hands-on workshop covering the latest techniques in AI and ML. Participants will learn about deep learning frameworks, model training, and deployment strategies.',
-      date: 'March 14, 2025',
-      time: '10:00 AM - 05:00 PM',
-      venue: 'Workshop Hall, UEM Kolkata',
-      image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop'
+      title: 'Post-It',
+      description: 'Driven by art, design, or the power of visual storytelling ? POST-IT is your platform. Transform your ideas into striking visuals that captivate, inspire, and communicate beyond words.',
+      date: 'June 26, 2025',
+      time: '11:00 AM',
+      venue: 'Buddha Auditorium',
+      image: img1,
+      register: 'https://bit.ly/AdComSys25-PostIt'
     },
     {
       id: 2,
-      title: 'Coders Brawl: Programming Competition',
-      description: 'Test your coding skills in this exciting programming competition. Solve challenging algorithmic problems and compete with participants from around the world.',
-      date: 'March 15, 2025',
-      time: '02:00 PM - 06:00 PM',
-      venue: 'Computer Lab 3, UEM Kolkata',
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop'
+      title: 'Techniche',
+      description: 'Techniche 2025, platform to showcase innovation and creativity! A Project Competition inviting budding tech minds to present their unique solutions to real-world challenges.',
+      date: 'June 26, 2025',
+      time: '11:00 AM',
+      venue: 'Buddha Auditorium',
+      image: img4,
+      register: 'https://bit.ly/AdComSys25-Techniche'
     },
     {
       id: 3,
-      title: 'Research Poster Session',
-      description: 'Interactive poster presentation session where researchers can showcase their work and engage in discussions with peers and experts.',
-      date: 'March 16, 2025',
-      time: '11:00 AM - 01:00 PM',
-      venue: 'Exhibition Hall, UEM Kolkata',
-      image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=250&fit=crop'
+      title: 'Workshop',
+      description: 'Dive deep into the world of cloud infrastructures, cybersecurity strategies, and enterprise-grade protection techniques. AdComSys 2025 presents the Enterprise Cloud Security Workshop',
+      date: 'June 26, 2025',
+      time: '2:00 PM to 4:00 PM',
+      venue: 'CCFL-3, University of Engineering and Management Kolkata',
+      image: img3,
+      register: 'https://bit.ly/AdComSys25-ECS'
     },
     {
       id: 4,
-      title: 'Industry Panel Discussion',
-      description: 'Panel discussion featuring industry leaders sharing insights on emerging technologies, career opportunities, and industry-academia collaboration.',
-      date: 'March 16, 2025',
-      time: '03:00 PM - 05:00 PM',
-      venue: 'Main Auditorium, UEM Kolkata',
-      image: 'https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=400&h=250&fit=crop'
+      title: 'Coders Brawl',
+      description: 'Step into the ultimate online coding arena, where sharp minds collide in a high-stakes showdown of DSA-driven challenges designed to stretch your skills and ignite your competitive spirit. Are you fast enough? Are you sharp enough? This isn’t just another contest — it’s a digital battleground, and only the best will rise.',
+      date: 'June 27, 2025',
+      time: '7:00 PM to 9:00 PM',
+      venue: 'Online',
+      image: img2,
+      register: 'https://bit.ly/AdComSys25-CodersBrawl'
     }
   ];
 
@@ -77,9 +85,10 @@ const Events = () => {
                     </div>
                   </div>
                   
-                  <a href={`/event-registration-${event.id}`} className="btn btn-primary btn-full">
+                  <a href={event.register} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-full">
                     Register Now
                   </a>
+
                 </div>
               </div>
             ))}

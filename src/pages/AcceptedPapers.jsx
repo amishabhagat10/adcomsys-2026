@@ -5,18 +5,11 @@ import './TechnicalPrograms.css';
 
 const AcceptedPapers = () => {
   const papers = [
-    { id: 'P001', title: 'Deep Learning for Image Classification: A Comprehensive Study', authors: 'John Doe, Jane Smith, Robert Brown' },
-    { id: 'P002', title: 'IoT-Based Smart Agriculture System', authors: 'Alice Johnson, Michael Chen' },
-    { id: 'P003', title: 'Blockchain for Supply Chain Management', authors: 'David Wilson, Sarah Lee, Tom Anderson' },
-    { id: 'P004', title: 'Machine Learning in Healthcare Diagnostics', authors: 'Emma Davis, James Miller' },
-    { id: 'P005', title: 'Cybersecurity Threats in Cloud Computing', authors: 'Richard Taylor, Laura White' },
-    { id: 'P006', title: 'Natural Language Processing for Sentiment Analysis', authors: 'Chris Martin, Amy Clark' },
-    { id: 'P007', title: 'Edge Computing for Real-Time Applications', authors: 'Kevin Harris, Lisa Moore' },
-    { id: 'P008', title: 'Quantum Computing: Current State and Future Prospects', authors: 'Daniel Garcia, Nancy Rodriguez' },
-    { id: 'P009', title: 'AI in Robotics and Automation', authors: 'Paul Martinez, Jennifer Hernandez' },
-    { id: 'P010', title: 'Privacy Preservation in Social Networks', authors: 'Thomas Lee, Sandra Kim' },
-    { id: 'P011', title: 'Big Data Analytics for Business Intelligence', authors: 'Andrew Thompson, Maria Lopez' },
-    { id: 'P012', title: 'Cloud-Native Application Development', authors: 'Brian Jackson, Emily White' }
+    { id: '10', title: 'Deep Learning-Based Speech Emotion Recognition: Comparative Analysis of Neural Architectures and Feature Extraction Techniques', authors: 'Deepra Mazumder, Devarshi Gupta and Jhalak Dutta' },
+    { id: '58', title: 'AI-Driven Business Intelligence for Optimizing Energy Efficiency in Smart Urban Systems: A Comparative Study', authors: 'Amit Kumar Mandal and Kisor Ray' },
+    { id: '92', title: 'FitFinder: A Next-Gen Resume Analyzer for Data-Driven Talent Acquisition', authors: 'Pratik Kundu, Souvik Nandi, Nirmal Sana, Pabitra Kumar Dey, Pradipta Pal, Debasis Guha' },
+    { id: '93', title: 'A Deep Learning-Based Method for the Categorization of Different Skin Diseases', authors: 'Manashi De, Rasham Lal Chhetri, Meghna Konar, Aditya Narayan Joardar, Ayush Jain, Ekarsi Lodh, Tapan Chowdhury' },
+    { id: '96', title: 'Community Detection in Dynamic Social Networks Using Time Stamp-Based Leiden', authors: 'Debarshi Choudhury, Kaustav Doari, Ayan Banerjee, Indranil Patra, Mrinal Kanti Nath, and Tapan Chowdhury' },
   ];
 
   return (

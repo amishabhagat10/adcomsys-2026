@@ -142,7 +142,7 @@ const KeynoteSpeakers = () => {
       <Header />
 
       <main className="speakers-page">
-        {/* ✅ Chief Guest Section */}
+        {/* Chief Guest Section */}
         <div className="container">
           <h1 className="page-title">Chief Guest and Guest of Honour</h1>
           <div className="speakers-grid">{chiefGuests.map(renderCard)}</div>
@@ -150,7 +150,7 @@ const KeynoteSpeakers = () => {
 
         <hr className="section-divider" />
 
-        {/* ✅ Keynote Speakers Section */}
+        {/* Keynote Speakers Section */}
         <div className="container">
           <h1 className="page-title">Keynote Speakers</h1>
           <div className="speakers-grid">{speakers.map(renderCard)}</div>

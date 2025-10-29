@@ -174,15 +174,20 @@ const Dashboard = () => {
               <div className="info-card">
                 <h3 className="info-title">Announcements</h3>
                 <p className="info-description">
-                  Stay updated with the latest conference announcements and important updates. Check back regularly for new information.
+                  <b>Description</b> - The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
                 </p>
-                <a href="#" className="info-link">Submit Manuscript</a>
+                <hr />
+                <p>Prospective authors are invited to submit manuscripts at <a href="https://cmt3.research.microsoft.com/AdComSys2025" className="info-link">https://cmt3.research.microsoft.com/AdComSys2025</a></p>
+                
                 <div className="info-buttons">
                   <a href="/program-schedule.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-sm">
                     Program Schedule
                   </a>
                   <a href="/camera-ready.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-sm">
                     Camera Ready Papers
+                  </a>
+                  <a href="/brochure.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-sm">
+                    Brochure AdComSys 2025
                   </a>
                 </div>
               </div>
@@ -193,24 +198,36 @@ const Dashboard = () => {
                 <table className="deadlines-table">
                   <tbody>
                     <tr>
-                      <td>Full Paper Submission</td>
-                      <td>February 15, 2025</td>
+                      <td>Paper Submission Open</td>
+                      <td>15th November 2024</td>
+                    </tr>
+                    <tr>
+                      <td>Paper Submission Deadline</td>
+                      <td>10th April 2025 (closed)</td>
                     </tr>
                     <tr>
                       <td>Acceptance Notification</td>
-                      <td>February 28, 2025</td>
-                    </tr>
-                    <tr>
-                      <td>Camera-Ready Submission</td>
-                      <td>March 5, 2025</td>
+                      <td>10th May 2025</td>
                     </tr>
                     <tr>
                       <td>Early Bird Registration</td>
-                      <td>February 28, 2025</td>
+                      <td>25th May 2025</td>
                     </tr>
                     <tr>
-                      <td>Conference Dates</td>
-                      <td>March 15-17, 2025</td>
+                      <td>Last Date of Registration</td>
+                      <td>5th June 2025</td>
+                    </tr>
+                    <tr>
+                      <td>Final Camera Ready Paper</td>
+                      <td>15th June 2025</td>
+                    </tr>
+                    <tr>
+                      <td>Submission of Copyright</td>
+                      <td>15th June 2025</td>
+                    </tr>
+                    <tr>
+                      <td>Date(s) of Conference</td>
+                      <td>26th & 27th June 2025</td>
                     </tr>
                   </tbody>
                 </table>
@@ -222,10 +239,31 @@ const Dashboard = () => {
                 <div className="past-conf-logo">
                   [Previous Conference Logo/Image Placeholder]
                 </div>
-                <p className="info-description">
-                  AdComSys 2024 was successfully organized with participation from 25+ countries and 150+ paper presentations. 
-                  The conference proceedings were published by Springer LNNS series.
-                </p>
+                
+                
+                <div className="info-card">
+                  
+
+                  <a href="/past-conference/2024" className="info-btn">
+                    View Details →
+                  </a>
+                </div>
+
+              </div>
+              <div className="info-card">
+                <h3 className="info-title">Past Conferences</h3>
+                <div className="past-conf-logo">
+                  [Previous Conference Logo/Image Placeholder]
+                </div>
+                
+                
+                <div className="info-card">
+                  
+
+                  <a href="/past-conference/2025" className="info-btn">
+                    View Details →
+                  </a>
+                </div>
               </div>
             </div>
           </div>
