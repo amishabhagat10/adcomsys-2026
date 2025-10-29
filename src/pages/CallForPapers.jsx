@@ -167,7 +167,7 @@ const CallForPapers = () => {
 
             <h3 className="content-heading">Research Tracks & Topics</h3>
 
-            {/* === FIXED FULL-WIDTH 4-COLUMN GRID === */}
+            
             <div
               className="tracks-section"
               style={{

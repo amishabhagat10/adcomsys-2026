@@ -17,7 +17,7 @@
   flex: 1;
 }
 
-/* Hero Section */
+
 .hero-section {
   position: relative;
   height: 550px;
@@ -73,7 +73,7 @@
   color: rgb(91, 209, 215);
 }
 
-/* Marquee */
+
 .marquee-container {
   
   color: white;
@@ -98,7 +98,7 @@
   font-weight: 500;
 }
 
-/* Sections */
+
 .section {
   padding: 3rem 0;
 }
@@ -115,7 +115,7 @@
   text-align: center;
 }
 
-/* Publication Box */
+
 .publication-box {
   background: #f8ede5af;
   border: 2px solid hsl(var(--accent));
@@ -143,7 +143,7 @@
   color: hsl(var(--accent));
 }
 
-/* Quick Access */
+
 .quick-access {
   display: flex;
   justify-content: center;
@@ -151,7 +151,7 @@
   flex-wrap: wrap;
 }
 
-/* Objectives Box */
+
 .objectives-box {
   background: hsl(var(--card));
   border-radius: var(--radius);
@@ -173,7 +173,7 @@
   gap: 1rem;
 }
 
-/* Buttons */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -227,7 +227,7 @@
   font-size: 0.9rem;
 }
 
-/* Carousel */
+
 .carousel-container {
   position: relative;
   max-width: 900px;
@@ -315,7 +315,7 @@
   transform: scale(1.2);
 }
 
-/* Info Grid */
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -357,7 +357,7 @@
   gap: 0.75rem;
 }
 
-/* Deadlines Table */
+
 .deadlines-table {
   width: 100%;
   border-collapse: collapse;
@@ -393,7 +393,7 @@
   color: hsl(var(--muted-foreground));
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .hero-section {
     height: 400px;
@@ -494,7 +494,7 @@
   z-index: 1;
 }
 
-/* Info Grid Layout */
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 1fr));
@@ -503,7 +503,7 @@
   width: 100%;
 }
 
-/* Info Card Styling */
+
 .info-card {
   background: #ffffff;
   border-radius: 8px;
@@ -513,13 +513,13 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Hover pop effect */
+
 .info-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
 }
 
-/* Titles inside cards */
+
 .info-card h4 {
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
@@ -527,7 +527,7 @@
   color: #111827;
 }
 
-/* Card paragraph */
+
 .info-card p {
   margin: 0;
   color: #4b5563;
@@ -535,7 +535,7 @@
   line-height: 1.5;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
   .info-grid {
     grid-template-columns: 1fr;

@@ -3,7 +3,7 @@
   min-height: 60vh;
 }
 
-/* ✅ Grid shared by both Chief Guests & Speakers */
+
 .speakers-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-/* ✅ Speaker & Chief Guest shared card style */
+
 .speaker-card {
   background: linear-gradient(135deg, #ffffff, #f4f7ff);
   border: 1px solid rgba(200, 200, 200, 0.4);
@@ -37,7 +37,7 @@
   border-color: hsl(var(--primary));
 }
 
-/* ✅ Circular Image Styles */
+
 .speaker-image {
   width: 100%;
   display: flex;
@@ -48,7 +48,7 @@
 .speaker-image img {
   width: 160px;
   height: 160px;
-  border-radius: 50%; /* ✅ Circular */
+  border-radius: 50%; 
   object-fit: cover;
   border: 3px solid hsl(var(--primary) / 0.4);
   transition: var(--transition-smooth);
@@ -58,7 +58,7 @@
   transform: scale(1.05);
 }
 
-/* ✅ Content */
+
 .speaker-content {
   padding: 1.5rem;
   text-align: left;
@@ -92,7 +92,7 @@
   margin-bottom: 1.2rem;
 }
 
-/* ✅ Read More + LinkedIn Action Area */
+
 .speaker-actions {
   display: flex;
   justify-content: space-between;
@@ -102,7 +102,7 @@
   border-top: 1px solid hsl(var(--border));
 }
 
-/* ✅ Read More Button */
+
 .btn-sm {
   display: flex;
   align-items: center;
@@ -123,7 +123,7 @@
   color: #fff;
 }
 
-/* ✅ LinkedIn Button */
+
 .linkedin-link {
   display: flex;
   align-items: center;
@@ -141,7 +141,7 @@
   background: hsl(var(--accent));
 }
 
-/* ✅ Responsive Styling */
+
 @media (max-width: 768px) {
   .speakers-grid {
     grid-template-columns: 1fr;

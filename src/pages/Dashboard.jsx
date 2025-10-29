@@ -25,7 +25,7 @@ const Dashboard = () => {
       <main className="dashboard">
         {/* Hero Section */}
         <section className="hero-section">
-          {/* 🎥 Background Video */}
+          {/*Background Video */}
           <video
             className="hero-video"
             src={heroVideo}
