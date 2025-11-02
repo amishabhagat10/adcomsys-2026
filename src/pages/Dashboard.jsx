@@ -38,7 +38,7 @@ const Dashboard = () => {
           <div className="hero-overlay">
             <div className="container">
               <div className="hero-content">
-                <h1 className="hero-title">AdComSys 2025</h1>
+                <h1 className="hero-title">AdComSys 2026</h1>
                 <h2 className="hero-subtitle">Third International Conference on Advanced Computing and Systems</h2>
                 <div className="hero-organizer">
                   <p>Organized By:</p>
@@ -50,14 +50,14 @@ const Dashboard = () => {
           </div>
           <div className="marquee-container">
             <div className="marquee-content">
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
-              <span>AdComSys 2025 will be organized by University of Engineering and Management, Kolkata on 26th and 27th June 2025</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
+              <span>AdComSys 2026 will be organized by University of Engineering and Management, Kolkata on 25th and 26th JUne 2026</span>
             </div>
           </div>
         </section>
@@ -75,7 +75,7 @@ const Dashboard = () => {
         </section>
 
         {/* Quick Access Buttons */}
-        <section className="section section-gray">
+        {/*<section className="section section-gray">
           <div className="container">
             <div className="quick-access">
               <a href="/registered-papers.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
@@ -88,7 +88,7 @@ const Dashboard = () => {
               </a>
             </div>
           </div>
-        </section>
+        </section>*/}
 
         {/* Conference Objectives */}
         <section className="section">
@@ -96,21 +96,21 @@ const Dashboard = () => {
             <div className="objectives-box">
               <h3 className="section-title">Conference Overview</h3>
               <p className="objectives-text">
-                The second edition of the International Conference on Advanced Computing and Systems (AdComSys 2025) will foster an 
-                excellent international forum for exchanging knowledge and the recent developments in theory, methodologies, and 
-                applications in artificial intelligence (AI) systems, Internet of Things (IoT) systems, 
-                cybersecurity and blockchain systems, and emerging computing techniques. AdComSys 2025 aims to foster intense 
-                dialogues between academia and industry, bridging the gaps between scholarly research, industrial initiatives, 
-                and governmental policymaking. AdComSys 2025 will contribute to the diverse spectrum of keynote addresses, 
-                technical tracks, panel discussions, and industry exhibits where academia can view state-of-the-art findings 
-                from the trials and interoperability experiments. Furthermore, the industry will benefit from exposure to 
-                leading-edge research and an opportunity to interact and fraternize with academic researchers on real-world 
-                issues. AdComSys 2025 invites original research and technical papers from researchers, scientists, academicians, 
-                industry professionals, and students. These papers are intended to share the experiences, new ideas, and 
-                research results related to advanced computing and systems, as well as to discuss the practical challenges 
-                faced and solutions implemented. The Department of Computer Science and Technology (CST) & Computer Science 
-                and Information Technology (CSIT), University of Engineering and Management in Kolkata, India will host the 
-                second International Conference on Advanced Computing and Systems (AdComSys 2025) on the 26th and 27th of June 2025.
+                The second edition of the International Conference on Advanced Computing and Systems (AdComSys 2026) will foster an
+                excellent international forum for exchanging knowledge and the recent developments in theory, methodologies, and
+                applications in artificial intelligence (AI) systems, Internet of Things (IoT) systems,
+                cybersecurity and blockchain systems, and emerging computing techniques. AdComSys 2026 aims to foster intense
+                dialogues between academia and industry, bridging the gaps between scholarly research, industrial initiatives,
+                and governmental policymaking. AdComSys 2026 will contribute to the diverse spectrum of keynote addresses,
+                technical tracks, panel discussions, and industry exhibits where academia can view state-of-the-art findings
+                from the trials and interoperability experiments. Furthermore, the industry will benefit from exposure to
+                leading-edge research and an opportunity to interact and fraternize with academic researchers on real-world
+                issues. AdComSys 2026 invites original research and technical papers from researchers, scientists, academicians,
+                industry professionals, and students. These papers are intended to share the experiences, new ideas, and
+                research results related to advanced computing and systems, as well as to discuss the practical challenges
+                faced and solutions implemented. The Department of Computer Science and Technology (CST) & Computer Science
+                and Information Technology (CSIT), University of Engineering and Management in Kolkata, India will host the
+                second International Conference on Advanced Computing and Systems (AdComSys 2026) on the 26th and 27th of June 2026.
               </p>
               
               <div className="action-buttons">
@@ -199,35 +199,35 @@ const Dashboard = () => {
                   <tbody>
                     <tr>
                       <td>Paper Submission Open</td>
-                      <td>15th November 2024</td>
+                      <td>15th December 2025</td>
                     </tr>
                     <tr>
                       <td>Paper Submission Deadline</td>
-                      <td>10th April 2025 (closed)</td>
+                      <td>10th March 2026</td>
                     </tr>
                     <tr>
                       <td>Acceptance Notification</td>
-                      <td>10th May 2025</td>
+                      <td>10th May 2026</td>
                     </tr>
                     <tr>
                       <td>Early Bird Registration</td>
-                      <td>25th May 2025</td>
+                      <td>25th May 2026</td>
                     </tr>
                     <tr>
                       <td>Last Date of Registration</td>
-                      <td>5th June 2025</td>
+                      <td>5th June 2026</td>
                     </tr>
                     <tr>
                       <td>Final Camera Ready Paper</td>
-                      <td>15th June 2025</td>
+                      <td>15th June 2026</td>
                     </tr>
                     <tr>
                       <td>Submission of Copyright</td>
-                      <td>15th June 2025</td>
+                      <td>15th June 2026</td>
                     </tr>
                     <tr>
                       <td>Date(s) of Conference</td>
-                      <td>26th & 27th June 2025</td>
+                      <td>25th & 26th June 2026</td>
                     </tr>
                   </tbody>
                 </table>

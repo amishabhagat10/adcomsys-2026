@@ -28,15 +28,14 @@ const CommitteeOrganizing = () => {
     coConvenors: [
       { name: 'Prof. Dr. Subhalaxmi Chakraborty', affiliation: 'University of Engineering and Management, Kolkata' },
       { name: 'Prof. Dr. Sudipta Basu Pal', affiliation: 'University of Engineering and Management, Kolkata' },
-      { name: 'Prof. Dr. Chiradeep Mukherjee', affiliation: 'University of Engineering and Management, Kolkata' },
-      { name: 'Prof. Dr. Sankhadeep Chatterjee', affiliation: 'University of Engineering and Management, Kolkata' }
+      { name: 'Prof. Dr. Chiradeep Mukherjee', affiliation: 'University of Engineering and Management, Kolkata' }
     ],
     technicalChair: [
       { name: 'Prof. Dr. Danilo Pelusi', affiliation: 'University of Teramo, Faculty of Communication Sciences, Teramo, Italy' },
       { name: 'Prof. Dr. Asit Kumar Das', affiliation: 'Department of Computer Science and Technology, Indian Institute of Engineering Science and Technology, Shibpur' }
     ],
     industrialChair: [
-      { name: 'Dr. Tanushyam Chattopadhyay', affiliation: 'Techno Functional Head, Computer Vision, Adani Enterprise Limited.' }
+      {/*{ name: 'Dr. Tanushyam Chattopadhyay', affiliation: 'Techno Functional Head, Computer Vision, Adani Enterprise Limited.' }*/}
     ],
     financeChair: [
       { name: 'Mr. Indranil Banerjee', affiliation: 'University of Engineering and Management Kolkata' }
@@ -44,14 +43,15 @@ const CommitteeOrganizing = () => {
     organizingMembers: [
       { name: 'Prof. Dr. Srilekha Mukherjee',  affiliation: 'University of Engineering and Management Kolkata' },
       { name: 'Prof. Dr. Anirban Ganguly',  affiliation: 'University of Engineering and Management Kolkata' },
-      { name: 'Prof. Dr. Rajendrani Mukherjee',  affiliation: 'University of Engineering and Management Kolkata' },
+      { name: 'Prof. Dr. Subhrangshu Das',  affiliation: 'University of Engineering and Management Kolkata' },
       { name: 'Prof. Dr. Debanjana Datta Mitra',  affiliation: 'University of Engineering and Management Kolkata' },
       { name: 'Prof. Pradipta Sarkar',  affiliation: 'University of Engineering and Management Kolkata' },
       { name: 'Prof. Sanjukta Mishra',  affiliation: 'University of Engineering and Management Kolkata' },
       { name: 'Prof. Kamalika Bhowal',  affiliation: 'University of Engineering and Management Kolkata' },
       { name: 'Prof. Dr. Suvaditya Majumdar',  affiliation: 'University of Engineering and Management Kolkata' },
       { name: 'Prof. Ayan Das',  affiliation: 'University of Engineering and Management Kolkata' },
-      { name: 'Prof. Arpita Saha Chowdhury',  affiliation: 'University of Engineering and Management Kolkata' }
+      { name: 'Prof. Arpita Saha Chowdhury',  affiliation: 'University of Engineering and Management Kolkata' },
+      { name: 'Prof. Ritika Pramanick',  affiliation: 'University of Engineering and Management Kolkata' }
     ]
   };
 

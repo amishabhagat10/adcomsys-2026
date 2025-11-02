@@ -316,3 +316,18 @@
   }
 }
 
+.logos-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 60px; 
+  width: auto;
+  object-fit: contain;
+  transition: var(--transition-smooth);
+  flex-shrink: 0; 
+}
+

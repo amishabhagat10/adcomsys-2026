@@ -56,9 +56,9 @@ const Header = () => {
         <div className="container">
           <div className="logos-container">
             <img src={logo1} alt="IEM Logo" className="logo" />
-            <img src={logo2} alt="Geeks for Geeks Logo" className="logo" />
+            {/*<img src={logo2} alt="Geeks for Geeks Logo" className="logo" />*/}
             <img src={logo3} alt="AdComSys Logo" className="logo" />
-            <img src={logo4} alt="Springer Logo" className="logo" />
+            {/*<img src={logo4} alt="Springer Logo" className="logo" />*/}
             <img src={logo5} alt="UEM Kolkata Logo" className="logo" />
           </div>
         </div>

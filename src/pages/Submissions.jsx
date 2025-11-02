@@ -28,7 +28,8 @@ const Submissions = () => {
               without attribution in connection with submitting academic work, whether graded or otherwise. 
               The Technical Program Committee will check the plagiarism level of all the submitted papers 
               to ensure the originality of the content using Turnitin (Turnitin) plagiarism checking software, 
-              and any paper having a similarity score above 15% will not be processed further.
+              and any paper having a similarity score above 15% will not be processed further. 
+              <b> Authors SHOULD NOT use generative AI and AI-assisted technologies in the writing process.</b>
             </p>
             
             <h3 className="content-heading">In order to submit the paper at AdComSys:</h3>
@@ -48,7 +49,7 @@ const Submissions = () => {
               <ul>
                 <li>
                   <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
-                    The Word template for the camera ready submission:
+                    Word template for the Manuscript submission:
                     <a
                       href="/src/assets/docs/splnproc2311.docm"
                       target="_blank"
@@ -64,7 +65,7 @@ const Submissions = () => {
                 </li>
               <li>
                 <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
-                  The Latex template for the camera ready submissiont:
+                  Latex template for the Manuscript submission:
                   <a
                     href="/src/assets/docs/LaTeX2e+Proceedings+Templates+download.zip"
                     target="_blank"
@@ -106,7 +107,7 @@ const Submissions = () => {
               <b> Without registration and attending the conference online or offline, the organizing committee will 
               not include his/her paper in the book.</b><br />
               <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
-                  PPT Template of AdComSYs 2025(new):-
+                  PPT template for AdComSys 2026:-
                   <a
                     href="https://media.uemkcstcsit.in/adcomsys_2025_template.pptx"
                     target="_blank"
@@ -121,12 +122,14 @@ const Submissions = () => {
                 </span>
             </p>
             
-            <h3 className="content-heading">AdComSys 2025 Paper Categories:-</h3>
+            <h3 className="content-heading">Submission Criteria:-</h3>
               <ul className="content-list">
-                <li><span>Regular Paper 10 pages minimum and 12 pages maximum.</span></li>
-                <li><span>To add more pages, an amout of ₹ 500 per page shall be charged</span></li>
-                <li>There is no provision for submitting short papers and posters<b><span style={{ color: "red", fontWeight: "semibold" }}>(4 – 6 pages)</span></b></li>
+                <li><span>Regular Paper 12 pages minimum and 14 pages maximum.</span></li>
+                <li><span>To add more pages, an amout of ₹ 500 per page shall be charged upto 17 pages. 
+                  THE MANUSCRIPTS HAVING MORE THAN 17 PAGES WILL BE DESK REJECTED.</span></li>
+                <li><b>There is no provision for submitting short papers and posters.</b> <b><span style={{ color: "red", fontWeight: "semibold" }}>(4 – 6 pages)</span></b></li>
                 <li><span>Regular papers should present novel perspectives within the general scope of the conference.</span></li> 
+                <li>Without registration and attending the conference online or offline, the organizing committee will not include his/her paper in the conference proceedings.</li>
               </ul>
             
             

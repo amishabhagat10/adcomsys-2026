@@ -541,3 +541,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+.btn {
+  border: 2px solid hsl(var(--border)); /* or a visible color like #444 */
+  background: hsl(var(--card)); /* make sure background contrasts */
+  color: hsl(var(--primary)); /* readable text color */
+}
+
+.btn:hover {
+  background: hsl(var(--primary));
+  color: hsl(var(--card));
+  border-color: hsl(var(--primary));
+}

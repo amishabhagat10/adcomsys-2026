@@ -23,7 +23,7 @@ const Registration = () => {
           </h1>
           
           <div className="content-box">
-            <p>According to the AdComSys 2025 conference registration policy, after obtaining the formal acceptance by e-mail, at least one author of each paper must complete regular registration formalities including payment of full registration fees.</p>
+            <p>According to the AdComSys 2026 conference registration policy, after obtaining the formal acceptance by e-mail, at least one author of each paper must complete regular registration formalities including payment of full registration fees.</p>
             
             <h3 className="content-heading">Registration Fees</h3>
             <div className="fees-table-wrapper">
@@ -31,10 +31,10 @@ const Registration = () => {
                 <thead>
                   <tr>
                     <th>Category</th>
-                    <th>India/ SAARC countries (Early Bird) (INR)*</th>
-                    <th>Foreign Countries (Early Bird) (USD)</th>
-                    <th>India/ SAARC countries (Regular) (INR)*</th>
-                    <th>Foreign Countries (Regular) (USD)*</th>
+                    <th>Indian authors (Early Bird) (INR)</th>
+                    <th>Foreign Authors (Early Bird) (USD)</th>
+                    <th>Indian authors (Regular) (INR)*</th>
+                    <th>Foreign Authors (Regular) (USD)*</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -80,7 +80,7 @@ const Registration = () => {
                 <tbody>
                   <tr>
                     <td><strong>Name of the Beneficiary: </strong></td>
-                    <td>"University of Engineering and Management, Kolkata"</td>
+                    <td>University of Engineering and Management, Kolkata</td>
                   </tr>
                   <tr>
                     <td><strong>Name of the Bank: </strong></td>
